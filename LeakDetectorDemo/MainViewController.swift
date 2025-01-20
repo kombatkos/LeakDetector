@@ -13,10 +13,7 @@ final class MainViewController: LeakDetectableTableViewController {
         case 0:
             switch indexPath.row {
             case 0:
-                let viewController = RxSwiftRootViewController()
-                let navController = UINavigationController(rootViewController: viewController)
-                weakViewController = navController
-                navigationController?.present(navController, animated: true, completion: nil)
+                break
             case 1:
                 let viewController = DelegateRootViewController()
                 let navController = UINavigationController(rootViewController: viewController)
@@ -74,14 +71,6 @@ final class MainViewController: LeakDetectableTableViewController {
                 weakViewController = viewController
                 navigationController?.pushViewController(viewController, animated: true)
             case 14:
-                let viewController = LeakDetectorRxSwiftRootViewController()
-                weakViewController = viewController
-                navigationController?.pushViewController(viewController, animated: true)
-            case 15:
-                let viewController = LeakDetectorRxSwiftMultiVCRootViewController()
-                weakViewController = viewController
-                navigationController?.pushViewController(viewController, animated: true)
-            case 16:
                 let viewController = UICollectionViewRootViewController()
                 weakViewController = viewController
                 navigationController?.pushViewController(viewController, animated: true)

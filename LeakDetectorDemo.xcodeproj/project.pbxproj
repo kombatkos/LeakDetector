@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 52;
+	objectVersion = 54;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -23,11 +23,8 @@
 		7F4F1C712562A78000A90DA8 /* ClosureRootViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F4F1C702562A78000A90DA8 /* ClosureRootViewController.swift */; };
 		7F4F1C762562B4DC00A90DA8 /* SimpleClosureViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F4F1C752562B4DC00A90DA8 /* SimpleClosureViewController.swift */; };
 		7F4F1C7C2562B75400A90DA8 /* NestedClosureViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F4F1C7B2562B75400A90DA8 /* NestedClosureViewController.swift */; };
-		7F7353BF290531CA00958751 /* LeakDetectorRxSwiftMultiVCRootViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F7353BE290531CA00958751 /* LeakDetectorRxSwiftMultiVCRootViewController.swift */; };
-		7F957C4D255EC7DE002EB89A /* RxViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F957C4C255EC7DE002EB89A /* RxViewController.swift */; };
 		7FB179A0256EA72C00209C04 /* CombineSwiftUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FB1799F256EA72C00209C04 /* CombineSwiftUIView.swift */; };
 		7FB179B1256EAE7500209C04 /* NotificationCenterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FB179B0256EAE7500209C04 /* NotificationCenterViewController.swift */; };
-		7FB179BA2571668500209C04 /* RxSwiftRootViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FB179B92571668500209C04 /* RxSwiftRootViewController.swift */; };
 		7FB179C9257225F100209C04 /* DelegateRootViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FB179C8257225F100209C04 /* DelegateRootViewController.swift */; };
 		7FB179D62572970800209C04 /* LazyVarRootViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FB179D52572970800209C04 /* LazyVarRootViewController.swift */; };
 		7FB179E02572971C00209C04 /* LazyVarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FB179DF2572971C00209C04 /* LazyVarViewController.swift */; };
@@ -61,13 +58,8 @@
 		D6FEB038255EBDE3009B2235 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D6FEB036255EBDE3009B2235 /* LaunchScreen.storyboard */; };
 		D6FEB048255EBF50009B2235 /* DelegateViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6FEB047255EBF50009B2235 /* DelegateViewController.swift */; };
 		D70BF29026DF59B50089DCE8 /* LeakDetectorCore in Frameworks */ = {isa = PBXBuildFile; productRef = D70BF28F26DF59B50089DCE8 /* LeakDetectorCore */; };
-		D785334C26DF1EAD001B3FDA /* LeakDetectorRxSwift in Frameworks */ = {isa = PBXBuildFile; productRef = D785334B26DF1EAD001B3FDA /* LeakDetectorRxSwift */; };
 		D7A55BAE26DF27D300F0DA35 /* LeakDetectorCombine in Frameworks */ = {isa = PBXBuildFile; productRef = D7A55BAD26DF27D300F0DA35 /* LeakDetectorCombine */; };
-		D7A55BB126DF2EF800F0DA35 /* LeakDetectorRxSwiftRootViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7A55BB026DF2EF800F0DA35 /* LeakDetectorRxSwiftRootViewController.swift */; };
-		D7A55BB326DF2F4100F0DA35 /* LeakDetectableRxSwiftTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7A55BB226DF2F4100F0DA35 /* LeakDetectableRxSwiftTableViewController.swift */; };
-		D7A55BB526DF320900F0DA35 /* LeakDetectorRxSwiftChildViewControllers.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7A55BB426DF320900F0DA35 /* LeakDetectorRxSwiftChildViewControllers.swift */; };
 		D7A55BB726DF3E8E00F0DA35 /* LeakDetectorCombine in Frameworks */ = {isa = PBXBuildFile; productRef = D7A55BB626DF3E8E00F0DA35 /* LeakDetectorCombine */; };
-		D7A55BB926DF3E9400F0DA35 /* LeakDetectorRxSwift in Frameworks */ = {isa = PBXBuildFile; productRef = D7A55BB826DF3E9400F0DA35 /* LeakDetectorRxSwift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -100,11 +92,8 @@
 		7F4F1C702562A78000A90DA8 /* ClosureRootViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClosureRootViewController.swift; sourceTree = "<group>"; };
 		7F4F1C752562B4DC00A90DA8 /* SimpleClosureViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpleClosureViewController.swift; sourceTree = "<group>"; };
 		7F4F1C7B2562B75400A90DA8 /* NestedClosureViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NestedClosureViewController.swift; sourceTree = "<group>"; };
-		7F7353BE290531CA00958751 /* LeakDetectorRxSwiftMultiVCRootViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeakDetectorRxSwiftMultiVCRootViewController.swift; sourceTree = "<group>"; };
-		7F957C4C255EC7DE002EB89A /* RxViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RxViewController.swift; sourceTree = "<group>"; };
 		7FB1799F256EA72C00209C04 /* CombineSwiftUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CombineSwiftUIView.swift; sourceTree = "<group>"; };
 		7FB179B0256EAE7500209C04 /* NotificationCenterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationCenterViewController.swift; sourceTree = "<group>"; };
-		7FB179B92571668500209C04 /* RxSwiftRootViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RxSwiftRootViewController.swift; sourceTree = "<group>"; };
 		7FB179C8257225F100209C04 /* DelegateRootViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DelegateRootViewController.swift; sourceTree = "<group>"; };
 		7FB179D52572970800209C04 /* LazyVarRootViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LazyVarRootViewController.swift; sourceTree = "<group>"; };
 		7FB179DF2572971C00209C04 /* LazyVarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LazyVarViewController.swift; sourceTree = "<group>"; };
@@ -139,9 +128,6 @@
 		D6FEB037255EBDE3009B2235 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D6FEB039255EBDE3009B2235 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D6FEB047255EBF50009B2235 /* DelegateViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DelegateViewController.swift; sourceTree = "<group>"; };
-		D7A55BB026DF2EF800F0DA35 /* LeakDetectorRxSwiftRootViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeakDetectorRxSwiftRootViewController.swift; sourceTree = "<group>"; };
-		D7A55BB226DF2F4100F0DA35 /* LeakDetectableRxSwiftTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeakDetectableRxSwiftTableViewController.swift; sourceTree = "<group>"; };
-		D7A55BB426DF320900F0DA35 /* LeakDetectorRxSwiftChildViewControllers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeakDetectorRxSwiftChildViewControllers.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -150,7 +136,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				D7A55BB726DF3E8E00F0DA35 /* LeakDetectorCombine in Frameworks */,
-				D7A55BB926DF3E9400F0DA35 /* LeakDetectorRxSwift in Frameworks */,
 				D70BF29026DF59B50089DCE8 /* LeakDetectorCore in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -159,7 +144,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D785334C26DF1EAD001B3FDA /* LeakDetectorRxSwift in Frameworks */,
 				D7A55BAE26DF27D300F0DA35 /* LeakDetectorCombine in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -172,7 +156,6 @@
 			children = (
 				7F1131772562D8C500438910 /* LeakDetectableViewController.swift */,
 				7F18D5902565F4E70045F6FC /* ChildViewController.swift */,
-				D7A55BB226DF2F4100F0DA35 /* LeakDetectableRxSwiftTableViewController.swift */,
 				7F28E4D52912615D00A1B905 /* UIViewController+Alert.swift */,
 			);
 			path = Utils;
@@ -191,12 +174,10 @@
 			isa = PBXGroup;
 			children = (
 				7F28E4D029121FD000A1B905 /* UICollectionView */,
-				D7A55BAF26DF2EE500F0DA35 /* LeakDetectorRxSwift */,
 				D62DE94D2588B2C200CF5CE1 /* Coordinator */,
 				7FB179E8257375C000209C04 /* SimpleCases */,
 				7FB179D4257296FA00209C04 /* LazyVar */,
 				7FB179C7257225DD00209C04 /* Delegate */,
-				7FB179B82571667700209C04 /* RxSwift */,
 				7FBA06E0256A91BC000A42C4 /* Combine */,
 				7FBA06D3256A875F000A42C4 /* URLSession */,
 				7FE0480525681A29005BE7C7 /* NestedClosures */,
@@ -239,15 +220,6 @@
 				7FF1190825673784000B6C59 /* NoLeakNonEscapingClosureViewController.swift */,
 			);
 			path = Closure;
-			sourceTree = "<group>";
-		};
-		7FB179B82571667700209C04 /* RxSwift */ = {
-			isa = PBXGroup;
-			children = (
-				7FB179B92571668500209C04 /* RxSwiftRootViewController.swift */,
-				7F957C4C255EC7DE002EB89A /* RxViewController.swift */,
-			);
-			path = RxSwift;
 			sourceTree = "<group>";
 		};
 		7FB179C7257225DD00209C04 /* Delegate */ = {
@@ -392,16 +364,6 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		D7A55BAF26DF2EE500F0DA35 /* LeakDetectorRxSwift */ = {
-			isa = PBXGroup;
-			children = (
-				D7A55BB026DF2EF800F0DA35 /* LeakDetectorRxSwiftRootViewController.swift */,
-				D7A55BB426DF320900F0DA35 /* LeakDetectorRxSwiftChildViewControllers.swift */,
-				7F7353BE290531CA00958751 /* LeakDetectorRxSwiftMultiVCRootViewController.swift */,
-			);
-			path = LeakDetectorRxSwift;
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -421,7 +383,6 @@
 			name = LeakDetectorDemoUITests;
 			packageProductDependencies = (
 				D7A55BB626DF3E8E00F0DA35 /* LeakDetectorCombine */,
-				D7A55BB826DF3E9400F0DA35 /* LeakDetectorRxSwift */,
 				D70BF28F26DF59B50089DCE8 /* LeakDetectorCore */,
 			);
 			productName = LeakDetectorDemoUITests;
@@ -442,7 +403,6 @@
 			);
 			name = LeakDetectorDemo;
 			packageProductDependencies = (
-				D785334B26DF1EAD001B3FDA /* LeakDetectorRxSwift */,
 				D7A55BAD26DF27D300F0DA35 /* LeakDetectorCombine */,
 			);
 			productName = LeakDetectorDemo;
@@ -526,15 +486,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				7FB179B1256EAE7500209C04 /* NotificationCenterViewController.swift in Sources */,
-				7F957C4D255EC7DE002EB89A /* RxViewController.swift in Sources */,
 				7FBA06D9256A884C000A42C4 /* URLSessionViewController.swift in Sources */,
 				7F4F1C5E256185D600A90DA8 /* RootViewController.swift in Sources */,
 				D640D9DE2563AD7E005ABD34 /* DispatchQueueRootViewController.swift in Sources */,
 				7FB179A0256EA72C00209C04 /* CombineSwiftUIView.swift in Sources */,
 				7F4F1C762562B4DC00A90DA8 /* SimpleClosureViewController.swift in Sources */,
 				D6FEB048255EBF50009B2235 /* DelegateViewController.swift in Sources */,
-				7FB179BA2571668500209C04 /* RxSwiftRootViewController.swift in Sources */,
-				D7A55BB326DF2F4100F0DA35 /* LeakDetectableRxSwiftTableViewController.swift in Sources */,
 				7F18D5952565F9730045F6FC /* TimerViewController.swift in Sources */,
 				7FE0480D25681B29005BE7C7 /* NestedClosuresViewController.swift in Sources */,
 				D6FEB02C255EBDE1009B2235 /* AppDelegate.swift in Sources */,
@@ -548,7 +505,6 @@
 				D62DE9522588B2C200CF5CE1 /* CoordinatorViewController.swift in Sources */,
 				7F4F1C712562A78000A90DA8 /* ClosureRootViewController.swift in Sources */,
 				7FE047EC2567F76C005BE7C7 /* AnimatorViewController.swift in Sources */,
-				D7A55BB126DF2EF800F0DA35 /* LeakDetectorRxSwiftRootViewController.swift in Sources */,
 				7FB179C9257225F100209C04 /* DelegateRootViewController.swift in Sources */,
 				D62DE9552588B2C200CF5CE1 /* Coordinator.swift in Sources */,
 				7FE0480725681A3E005BE7C7 /* NestedClosuresRootViewController.swift in Sources */,
@@ -567,11 +523,9 @@
 				7F28E4D62912615D00A1B905 /* UIViewController+Alert.swift in Sources */,
 				7FBA06F2256B22E2000A42C4 /* FutureViewController.swift in Sources */,
 				7FE047E82567F6E0005BE7C7 /* AnimateRootViewController.swift in Sources */,
-				D7A55BB526DF320900F0DA35 /* LeakDetectorRxSwiftChildViewControllers.swift in Sources */,
 				7FE047D525673F34005BE7C7 /* DispatchWorkItemViewController.swift in Sources */,
 				D6FEB02E255EBDE1009B2235 /* SceneDelegate.swift in Sources */,
 				7F28E4D22912202300A1B905 /* UICollectionViewRootViewController.swift in Sources */,
-				7F7353BF290531CA00958751 /* LeakDetectorRxSwiftMultiVCRootViewController.swift in Sources */,
 				7FE047DF25674C4A005BE7C7 /* NoLeakHighOrderFunctionViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -843,10 +797,6 @@
 			isa = XCSwiftPackageProductDependency;
 			productName = LeakDetectorCore;
 		};
-		D785334B26DF1EAD001B3FDA /* LeakDetectorRxSwift */ = {
-			isa = XCSwiftPackageProductDependency;
-			productName = LeakDetectorRxSwift;
-		};
 		D7A55BAD26DF27D300F0DA35 /* LeakDetectorCombine */ = {
 			isa = XCSwiftPackageProductDependency;
 			productName = LeakDetectorCombine;
@@ -854,10 +804,6 @@
 		D7A55BB626DF3E8E00F0DA35 /* LeakDetectorCombine */ = {
 			isa = XCSwiftPackageProductDependency;
 			productName = LeakDetectorCombine;
-		};
-		D7A55BB826DF3E9400F0DA35 /* LeakDetectorRxSwift */ = {
-			isa = XCSwiftPackageProductDependency;
-			productName = LeakDetectorRxSwift;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};
